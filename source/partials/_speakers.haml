@@ -4,28 +4,27 @@
       %a{:name=>"speakers"}
       %span Speakers
 
-    / %ul
-    /   %li.speaker
-    /     .rounded
-    /       %a{href: '#speaker1', rel: 'speaker_image', class: 'fancybox', id: 'brendon_mclean'}
-    /         = image_tag "speakers/2015/brendon_mclean.jpg"
-    /       %a{:href=>"https://twitter.com/brendon9x", :class=>"twitter"}= image_tag "twitter.png"
-    /       %a{:href=>"https://github.com/brendon9x", :class=>"github"}= image_tag "github.png"
-    /     %h2
-    /       %a{href: '#speaker1', rel: 'speakers', class: 'fancybox'} Brendon McLean
-    /     %p Extending Ruby by harnessing other languages
+    %ul
+      %li.speaker
+        .rounded
+          %a{href: '#speaker1', rel: 'speaker_image', class: 'fancybox', id: 'you'}
+            = image_tag "speakers/you.png"
+          %a{:href=>"#", :class=>"twitter"}= image_tag "twitter.png"
+          %a{:href=>"#", :class=>"github"}= image_tag "github.png"
+        %h2
+          %a{href: '#speaker1', rel: 'speakers', class: 'fancybox'} You?
+        %p Your talk's description
 
-    /     #speaker1.detail
-    /       .links.right
-    /         %a{:href=>"https://twitter.com/brendon9x", :class=>"twitter"}= image_tag "twitter.png"
-    /         %a{:href=>"https://github.com/brendon9x", :class=>"github"}= image_tag "github.png"
-    /       .name
-    /         = image_tag "speakers/2015/brendon_mclean.jpg"
-    /         %h2 Brendon McLean
-    /       .inner
-    /         %p Brendon McLean studied engineering because his career guidance councillor told him there were no jobs in software. He's been writing software ever since. He narrowly escaped a verbose career in enterprise Java when he was offered the role of heading up development at Intellection, a start-up in market research analytics. He jumped at the opportunity and helped build their data analytics platform for market research in Ruby.
-    /         %h3 Extending Ruby by harnessing other languages
-    /         %p What do you do when your Ruby startup takes off and you realise that Ruby might not be best suited for everything? This talk covers our initial attempts to use Ruby as a data analytics platform, and how we ultimately ended up solving the problem using ideas from LISP and ActiveRecord scopes to bring the power and performance of data science languages to Ruby. We will also cover how Ruby can learn from other languages, and why Ruby is still our language of choice.
+        #speaker1.detail
+          .links.right
+            %a{:href=>"#", :class=>"twitter"}= image_tag "twitter.png"
+            %a{:href=>"#", :class=>"github"}= image_tag "github.png"
+          .name
+            = image_tag "speakers/you.png"
+            %h2 Your name right here.
+          .inner
+            %a{:href=>"http://cfp.rubyfuza.org/events/rubyfuza-2016-cfp"} Submit your talk today!
+            %p Rubyfuza is the only African conference for Ruby developers. The event comprises of two days of single-track presentations and an additional workshop day. The organizers of Rubyfuza 2016 is encouraging the submission of proposals for 30-minute presentations OR workshops related to Ruby development. Sessions may be geared toward non-expert audiences or focus on topics relevant to experienced developers. The deadline to submit proposals is December 31, 2015.
 
 
 
