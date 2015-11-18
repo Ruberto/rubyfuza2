@@ -28,17 +28,7 @@
           <li class='js_nav_link'><a href="/#venue">Venue</a></li>
           <li class='js_nav_link'><a href="/#sponsors">Sponsors</a></li>
           <li class='js_nav_link'><a href="/#links">Links</a></li>
-          <li>
-            <a href='#'>
-              Previously
-              <span class='arrow'>▼</span>
-            </a>
-            <ul class='sub-menu'>
-              <li><a href="2013.html">2013</a></li>
-              <li><a href="2014.html">2014</a></li>
-              <li><a href="2015.html">2015</a></li>
-            </ul>
-          </li>
+          <li class='js_nav_link'><a href="/#previous_years">Previous Years</a></li>
           <li id='register'><a href="https://www.quicket.co.za/events/12937-rubyfuza-2016/#/">Register</a></li>
           <a class='register-now' href='https://www.quicket.co.za/events/12937-rubyfuza-2016/#/'>
             <span>Register now!</span>
@@ -233,8 +223,36 @@
   </section>
   <!-- = partial('partials/schedule') -->
   <!-- = partial('partials/workshops') -->
-  <!-- = partial('partials/venue') -->
   <!-- = partial('partials/sponsors') -->
+  <section id='venue'>
+    <div class='wrapper'>
+      <h1 class='heading'>
+        <a name='venue'></a>
+        <span>Venue</span>
+      </h1>
+      <h2>
+        <a href="http://www.presidenthotel.co.za/">President Hotel, Cape Town</a>
+      </h2>
+      <img src="images/president_hotel.jpg" />
+      <div class='map left'>
+        <script src='http://maps.google.com/maps/api/js?sensor=false' type='text/javascript'></script>
+        <div style='overflow:hidden;height:200px;width:200px;'>
+          <div id='gmap_canvas' style='height:200px;width:200px;'></div>
+          <style>
+            #gmap_canvas img{max-width:none!important;background:none!important}
+          </style>
+          <a class='google-map-code' href='http://goertz-gutschein-map.com' id='get-map-data'>unterschiedlichsten</a>
+        </div>
+        <script>
+          function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(-33.923447,18.379355),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-33.923447, 18.379355)});infowindow = new google.maps.InfoWindow({content:"<b>The Presidents Hotel</b><br/>4 Alexander Rd<br/> Cape Town" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});}google.maps.event.addDomListener(window, 'load', init_map);
+        </script>
+      </div>
+      <h2>Presidents Hotel, Cape Town.</h2>
+      <p>Situated in the exclusive and wind-free suburb of Bantry Bay, the President Hotel is a peaceful haven just a step away from the buzz of Cape Town’s CBD. With sweeping views stretching over the endless horizon of the deep blue Atlantic Ocean and nestled below the majestic Lion’s Head, Bantry Bay enjoys an average of 290 wind-free days a year. The average daily sunshine is between 7.5 and 9.5 hours, making the President Hotel’s infinity pool an attractive prospect all year round.</p>
+      <a target="rubyfuza_map" href="https://www.google.co.za/maps/place/Protea+Hotel+President/@-33.9235706,18.3779633,17.79z/data=!4m7!1m4!3m3!1s0x1dcc6712a317fdc7:0x4968d5fb00725d72!2sProtea+Hotel+President!3b1!3m1!1s0x1dcc6712a317fdc7:0x4968d5fb00725d72">View Map</a>
+      <a class="more" href="mailto:info@rubyfuza.org?subject=Looking%20for%20accommodation">Find accommodation</a>
+    </div>
+  </section>
   <section id='links'>
     <div class='wrapper'>
       <h1 class='heading'>
@@ -265,6 +283,31 @@
               <a href="https://www.youtube.com/Rubyfuza">Past Videos on Youtube</a>
             </span>
           </p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id='previous_years'>
+    <div class='wrapper'>
+      <h1 class='heading'>
+        <a name='Previous Years'></a>
+        <span>Previous Years</span>
+      </h1>
+      <ul class='year_links'>
+        <li class='third'>
+          <span>
+            <a href="2013.html">Rubyfuza - 2013</a>
+          </span>
+        </li>
+        <li class='third'>
+          <span>
+            <a href="2014.html">Rubyfuza - 2014</a>
+          </span>
+        </li>
+        <li class='third'>
+          <span>
+            <a href="2015.html">Rubyfuza - 2015</a>
+          </span>
         </li>
       </ul>
     </div>
