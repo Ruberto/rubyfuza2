@@ -4,7 +4,92 @@
 			%a{:name=>"sponsors"}
 			%span Sponsors
 
+		%ul.sponsors-list
+			%li.third
+			%li.third
+				%a{:href=>"#platform45", :class=>"info fancybox", rel: 'sponsors', :title=>"Platform45"}
+					= image_tag "logos/platform45n.png"
+				.row
+					%a{:href=>"http://www.platform45.com", :target=>"_blank", :title=>"Platform45"} platform45.com
+				%small Ruby-level sponsor
+
+				#platform45.detail
+					%a{:href=>"http://platform45.com", :target=>"_blank", :title=>"Platform45"}
+						= image_tag "logos/platform45n2.png", :class => 'square'
+					%p At Platform45 we believe software is essential to the advancement of human potential. All businesses will, if they haven't already, become software businesses.
+					%p
+						We work with our clients to
+						%strong create custom web and mobile software
+						that allows them to automate, innovate and ultimately engineer a better business.
+					%span.right Ruby-level sponsor
+					%a{:href=>"http://www.platform45.com", :target=>"_blank", :title=>"Platform45"} platform45.com
+
 		/ %ul.sponsors-list
+		/ 	%li.third
+		/ 	%li.third
+		/ 		%a{:href=>"#unboxedconsulting", :class=>"info fancybox", rel: 'sponsors', :title=>"Unboxed Consulting"}
+		/ 			= image_tag "logos/unboxedconsulting.png", :style => 'width:60%'
+		/ 		.row
+		/ 			%a{:href=>"http://unboxedconsulting.com", :target=>"_blank", :title=>"Unboxed Consulting"} unboxedconsulting.com
+		/ 		%small Sapphire-level sponsor
+
+		/ 		#unboxedconsulting.detail
+		/ 			%a{:href=>"http://unboxedconsulting.com"}
+		/ 				= image_tag "logos/unboxedconsulting2.png", :class => 'square'
+		/ 			%p Unboxed Consulting build innovative and robust applications. We have a solid and well-honed development process that we are very proud of. Our first love is Ruby on Rails but we like to play the field as well. Based in Cape Town and London we work with large ambitious clients and also inspiring startups in both South Africa and the UK.
+		/ 			%span.right Sapphire-level sponsor
+		/ 			%a{:href=>"http://unboxedconsulting.com", :target=>"_blank", :title=>"Unboxed Consulting"} unboxedconsulting.com
+
+		%ul.sponsors-list
+			%li.third
+				%a{:href=>"#vulcanlabs", :class=>"info fancybox", rel: 'sponsors', :title=>"Vulcan Labs"}
+					= image_tag "logos/vulcanlabs_d.png"
+				.row
+					%a{:href=>"http://www.vulcanlabs.com", :target=>"_blank", :title=>"Vulcan Labs"} vulcanlabs.com
+				%small Topaz-level sponsor
+
+				#vulcanlabs.detail
+					%a{:href=>"http://www.vulcanlabs.com", :target=>"_blank", :title=>"Vulcan Labs"}
+						= image_tag "logos/vulcanlabs2.png", :class =>'square'
+					%p Vulcan Labs is a leading boutique provider of software development and consulting services with a specific focus on the Business Intelligence domain. We develop a range of highly customisable products that enable businesses to better collect, collate, analyse and report on critical business data.
+
+					%span.right Topaz-level sponsor
+					%a{:href=>"http://www.vulcanlabs.com", :target=>"_blank", :title=>"Vulcan Labs"} vulcanlabs.com
+
+			%li.third
+				/ %a{:href=>"#coldcuttech", :class=>"info fancybox", rel: 'sponsors', :title=>"Coldcut Technologies"}
+				/ 	= image_tag "logos/coldcut-white.png"
+				/ .row
+				/ 	%a{:href=>"http://www.coldcut.co.za/", :target=>"_blank", :title=>"Coldcut Technologies"} coldcut.co.za
+				/ %small Topaz-level sponsor
+
+				/ #coldcuttech.detail
+				/ 	%a{:href=>"http://www.coldcut.co.za/", :target=>"_blank", :title=>"Coldcut Technologies"}
+				/ 		= image_tag "logos/coldcut.png", :class => 'square'
+				/ 	%p Coldcut Technologies is a South-African based information technology company created in March 2011.
+				/ 	%p We are an innovative software development company which aims to deliver software design and development that are both of the highest quality, affordable and reliable. To achieve this we offer a variety of products and services, developed using the latest technology and methods to meet individual business requirements.
+				/ 	%p As a company we value integrity, honesty, openness and mutual respect. We hold ourselves accountable to our customers by honoring our commitments, providing results, and striving for the highest quality.
+
+				/ 	%span.right Topaz-level sponsor
+				/ 	%a{:href=>"http://www.coldcut.co.za/", :target=>"_blank", :title=>"Coldcut Technologies"} coldcut.co.za
+
+			%li.third
+				%a{:href=>"#zeroone", :class=>"info fancybox", rel: 'sponsors', :title=>"Zero One"}
+					= image_tag "logos/zero_one_white.png", :style=>"width:180px;height:180px;"
+				.row
+					%a{:href=>"http://www.zero-one.io", :target=>"_blank", :title=>"Zero One"} zero-one.io
+				%small Topaz-level sponsor
+
+				#zeroone.detail
+					%a{:href=>"http://www.zero-one.io", :target=>"_blank", :title=>"Zero One"}
+						= image_tag "logos/zero_one.png"
+					%p Zero One is a boutique bespoke software development company that focuses on the right mix of proven tools and cutting-edge software development techniques. We build ambitious applications for some of the most innovative companies in South Africa. Zero One ❤’s Ruby.
+
+					%span.right Topaz-level sponsor
+					%a{:href=>"http://www.zero-one.io", :target=>"_blank", :title=>"Zero One"} zero-one.io
+
+
+
 		/ 	%li.half
 		/ 		%a{:href=>"#hetzner", :class=>"info fancybox", rel: 'sponsors', :title=>"Hetzner, Trusted in Hosting"}
 		/ 			= image_tag "logos/hetzner.png"
@@ -24,8 +109,10 @@
 		%h2.highlight
 			Interested in sponsoring this event?
 			Check out the
-			%a{:href=>"/downloads/Rubyfuza%202015%20Sponsorship%20Prospectus.pdf"} prospectus
+			%a{:href=>"/downloads/Rubyfuza%202016%20Sponsorship%20Prospectus.pdf"} prospectus
 			and drop us an
-			= "#{link_to 'e-mail', 'mailto:sponsor@rubyfuza.org'}. Last year's #{link_to 'sponsors', '/2014#sponsors'}."
+			= link_to 'e-mail', 'mailto:sponsor@rubyfuza.org'
+			Last year's 
+			=link_to 'sponsors', '/2015.html#sponsors'
 
 

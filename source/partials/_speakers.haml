@@ -6,23 +6,48 @@
     %ul
       %li.speaker
         .rounded
-          %a{href: '#speaker1', rel: 'speaker_image', class: 'fancybox', id: 'you'}
-            = image_tag "speakers/you.png"
-          %a{:href=>"#", :class=>"twitter"}= image_tag "twitter.png"
-          %a{:href=>"#", :class=>"github"}= image_tag "github.png"
+          %a{href: '#speaker1', rel: 'speaker_image', class: 'fancybox', id: 'sarah_mei'}
+            = image_tag "speakers/2016/sarah_mei.jpg"
+          %a{:href=>"https://twitter.com/sarahmei/", :class=>"twitter"}= image_tag "twitter.png"
+          %a{:href=>"https://github.com/sarahmei/", :class=>"github"}= image_tag "github.png"
         %h2
-          %a{href: '#speaker1', rel: 'speakers', class: 'fancybox'} You?
-        %p Your talk's description
+          %a{href: '#speaker1', rel: 'speakers', class: 'fancybox'} Sarah Mei
+        / %p Your talk's description
 
         #speaker1.detail
           .links.right
-            %a{:href=>"#", :class=>"twitter"}= image_tag "twitter.png"
-            %a{:href=>"#", :class=>"github"}= image_tag "github.png"
+            %a{:href=>"https://twitter.com/sarahmei/", :class=>"twitter"}= image_tag "twitter.png"
+            %a{:href=>"https://github.com/sarahmei/", :class=>"github"}= image_tag "github.png"
+          .name
+            = image_tag "speakers/2016/sarah_mei.jpg"
+            %h2 Sarah Mei
+          .inner
+            %p Sarah Mei has been doing software since before the internet had cats. She’s currently the Chief Consultant of DevMynd, where she helps teams refactor their way out of interesting messes. She also teaches object-oriented design with Sandi Metz, is a director of Ruby Central, and co-founded RailsBridge back in the day. Sarah lives in San Francisco, which is way colder than the California you imagine.
+            / %h3 Sarah's talk name
+            / %p Sarah's talk description.
+
+
+      %li.speaker
+        .rounded
+          %a{href: '#speaker2', rel: 'speaker_image', class: 'fancybox', id: 'you'}
+            = image_tag "speakers/you.png"
+          %a{:href=>"https://twitter.com/rubyfuza/", :class=>"twitter"}= image_tag "twitter.png"
+          %a{:href=>"https://github.com/Rubyfuza/", :class=>"github"}= image_tag "github.png"
+        %h2
+          %a{href: '#speaker2', rel: 'speakers', class: 'fancybox'} You?
+        %p Your talk's description
+
+        #speaker2.detail
+          .links.right
+            %a{:href=>"https://twitter.com/rubyfuza/", :class=>"twitter"}= image_tag "twitter.png"
+            %a{:href=>"https://github.com/Rubyfuza/", :class=>"github"}= image_tag "github.png"
           .name
             = image_tag "speakers/you.png"
             %h2 Your name right here.
           .inner
-            %a{:href=>"http://cfp.rubyfuza.org/events/rubyfuza-2016-cfp"} Submit your talk today!
+            %a{:href=>"http://cfp.rubyfuza.org/events/rubyfuza-2016-cfp", :class=>"button button-3d button-primary button-rounded"} Submit your talk today!
+            %br
+            %br
             %p Rubyfuza is the only African conference for Ruby developers. The event comprises of two days of single-track presentations and an additional workshop day. The organizers of Rubyfuza 2016 is encouraging the submission of proposals for 30-minute presentations OR workshops related to Ruby development. Sessions may be geared toward non-expert audiences or focus on topics relevant to experienced developers. The deadline to submit proposals is December 31, 2015.
 
 
