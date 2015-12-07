@@ -105,7 +105,7 @@
           <h2>
             <a class='fancybox' href='#speaker1' rel='speakers'>Sarah Mei</a>
           </h2>
-          <p>Your talk's description</p>
+          <!-- %p Your talk's description -->
           <div class='detail' id='speaker1'>
             <div class='links right'>
               <a class='twitter' href='https://twitter.com/sarahmei/'><img src="images/twitter.png" /></a>
@@ -117,8 +117,8 @@
             </div>
             <div class='inner'>
               <p>Sarah Mei has been doing software since before the internet had cats. She’s currently the Chief Consultant of DevMynd, where she helps teams refactor their way out of interesting messes. She also teaches object-oriented design with Sandi Metz, is a director of Ruby Central, and co-founded RailsBridge back in the day. Sarah lives in San Francisco, which is way colder than the California you imagine.</p>
-              <h3>Sarah's talk name</h3>
-              <p>Sarah's talk description.</p>
+              <!-- %h3 Sarah's talk name -->
+              <!-- %p Sarah's talk description. -->
             </div>
           </div>
         </li>
@@ -284,20 +284,26 @@
           </div>
         </li>
       </ul>
-      <!-- %ul.sponsors-list -->
-      <!-- %li.third -->
-      <!-- %li.third -->
-      <!-- %a{:href=>"#unboxedconsulting", :class=>"info fancybox", rel: 'sponsors', :title=>"Unboxed Consulting"} -->
-      <!-- = image_tag "logos/unboxedconsulting.png", :style => 'width:60%' -->
-      <!-- .row -->
-      <!-- %a{:href=>"http://unboxedconsulting.com", :target=>"_blank", :title=>"Unboxed Consulting"} unboxedconsulting.com -->
-      <!-- %small Sapphire-level sponsor -->
-      <!-- #unboxedconsulting.detail -->
-      <!-- %a{:href=>"http://unboxedconsulting.com"} -->
-      <!-- = image_tag "logos/unboxedconsulting2.png", :class => 'square' -->
-      <!-- %p Unboxed Consulting build innovative and robust applications. We have a solid and well-honed development process that we are very proud of. Our first love is Ruby on Rails but we like to play the field as well. Based in Cape Town and London we work with large ambitious clients and also inspiring startups in both South Africa and the UK. -->
-      <!-- %span.right Sapphire-level sponsor -->
-      <!-- %a{:href=>"http://unboxedconsulting.com", :target=>"_blank", :title=>"Unboxed Consulting"} unboxedconsulting.com -->
+      <ul class='sponsors-list'>
+        <li class='third'></li>
+        <li class='third'>
+          <a class='info fancybox' href='#unboxedconsulting' rel='sponsors' title='Unboxed Consulting'>
+            <img style="width:60%" src="images/logos/unboxedconsulting.png" />
+          </a>
+          <div class='row'>
+            <a href='http://unboxedconsulting.com' target='_blank' title='Unboxed Consulting'>unboxedconsulting.com</a>
+          </div>
+          <small>Sapphire-level sponsor</small>
+          <div class='detail' id='unboxedconsulting'>
+            <a href='http://unboxedconsulting.com'>
+              <img class="square" src="images/logos/unboxedconsulting2.png" />
+            </a>
+            <p>We’re Unboxed. We collaborate to grow ideas for digital products and services. Then we build them. We also improve the way organisations works. We do this through agile and lean techniques, using Ruby on Rails.</p>
+            <span class='right'>Sapphire-level sponsor</span>
+            <a href='http://unboxedconsulting.com' target='_blank' title='Unboxed Consulting'>unboxedconsulting.com</a>
+          </div>
+        </li>
+      </ul>
       <ul class='sponsors-list'>
         <li class='third'>
           <a class='info fancybox' href='#vulcanlabs' rel='sponsors' title='Vulcan Labs'>
@@ -317,23 +323,19 @@
           </div>
         </li>
         <li class='third'>
-          <a class='info fancybox' href='#coldcuttech' rel='sponsors' title='Coldcut Technologies'>
-            <img src="images/logos/coldcut-white.png" />
-          </a>
-          <div class='row'>
-            <a href='http://www.coldcut.co.za/' target='_blank' title='Coldcut Technologies'>coldcut.co.za</a>
-          </div>
-          <small>Topaz-level sponsor</small>
-          <div class='detail' id='coldcuttech'>
-            <a href='http://www.coldcut.co.za/' target='_blank' title='Coldcut Technologies'>
-              <img class="square" src="images/logos/coldcut.png" />
-            </a>
-            <p>Coldcut Technologies is a South-African based information technology company created in March 2011.</p>
-            <p>We are an innovative software development company which aims to deliver software design and development that are both of the highest quality, affordable and reliable. To achieve this we offer a variety of products and services, developed using the latest technology and methods to meet individual business requirements.</p>
-            <p>As a company we value integrity, honesty, openness and mutual respect. We hold ourselves accountable to our customers by honoring our commitments, providing results, and striving for the highest quality.</p>
-            <span class='right'>Topaz-level sponsor</span>
-            <a href='http://www.coldcut.co.za/' target='_blank' title='Coldcut Technologies'>coldcut.co.za</a>
-          </div>
+          <!-- %a{:href=>"#coldcuttech", :class=>"info fancybox", rel: 'sponsors', :title=>"Coldcut Technologies"} -->
+          <!-- = image_tag "logos/coldcut-white.png" -->
+          <!-- .row -->
+          <!-- %a{:href=>"http://www.coldcut.co.za/", :target=>"_blank", :title=>"Coldcut Technologies"} coldcut.co.za -->
+          <!-- %small Topaz-level sponsor -->
+          <!-- #coldcuttech.detail -->
+          <!-- %a{:href=>"http://www.coldcut.co.za/", :target=>"_blank", :title=>"Coldcut Technologies"} -->
+          <!-- = image_tag "logos/coldcut.png", :class => 'square' -->
+          <!-- %p Coldcut Technologies is a South-African based information technology company created in March 2011. -->
+          <!-- %p We are an innovative software development company which aims to deliver software design and development that are both of the highest quality, affordable and reliable. To achieve this we offer a variety of products and services, developed using the latest technology and methods to meet individual business requirements. -->
+          <!-- %p As a company we value integrity, honesty, openness and mutual respect. We hold ourselves accountable to our customers by honoring our commitments, providing results, and striving for the highest quality. -->
+          <!-- %span.right Topaz-level sponsor -->
+          <!-- %a{:href=>"http://www.coldcut.co.za/", :target=>"_blank", :title=>"Coldcut Technologies"} coldcut.co.za -->
         </li>
         <li class='third'>
           <a class='info fancybox' href='#zeroone' rel='sponsors' title='Zero One'>
@@ -347,7 +349,7 @@
             <a href='http://www.zero-one.io' target='_blank' title='Zero One'>
               <img src="images/logos/zero_one.png" />
             </a>
-            <p>Zero One is a boutique bespoke software development company that focuses on the right mix of proven tools and cutting-edge software development techniques.</p>
+            <p>Zero One is a boutique bespoke software development company that focuses on the right mix of proven tools and cutting-edge software development techniques. We build ambitious applications for some of the most innovative companies in South Africa. Zero One ❤’s Ruby.</p>
             <span class='right'>Topaz-level sponsor</span>
             <a href='http://www.zero-one.io' target='_blank' title='Zero One'>zero-one.io</a>
           </div>
