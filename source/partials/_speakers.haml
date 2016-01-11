@@ -26,18 +26,338 @@
             / %h3 Sarah's talk name
             / %p Sarah's talk description.
 
+      / %li.speaker
+      /   / TODO# need to get a new profile picture and twitter and github handles
+      /   .rounded
+      /     %a{href: '#speaker2', rel: 'speaker_image', class: 'fancybox', id: 'julian_cheal'}
+      /       = image_tag "speakers/2016/speaker_name.jpg"
+      /     %a{:href=>"https://twitter.com/speaker-twitter", :class=>"twitter"}= image_tag "twitter.png"
+      /     %a{:href=>"https://github.com/speaker-github", :class=>"github"}= image_tag "github.png"
+      /   %h2
+      /     %a{href: '#speaker2', rel: 'speakers', class: 'fancybox'} Julian Cheal
+      /   %p (M)Ruby, Robots, and how to control the World.
+
+      /   #speaker2.detail
+      /     .links.right
+      /       %a{:href=>"https://twitter.com/speaker-twitter", :class=>"twitter"}= image_tag "twitter.png"
+      /       %a{:href=>"https://github.com/speaker-github", :class=>"github"}= image_tag "github.png"
+      /     .name
+      /       = image_tag "speakers/2016/speaker_name.jpg"
+      /       %h2 Julian Cheal
+      /     .inner
+      /       %p A British Ruby/Rails developer, with a penchant for tweed, fine coffee, and homebrewing. When not deploying enterprise clouds, I help organise fun events around the world that teach people to program flying robots. I also occasionally speak at international conferences on the intersection of programming and robotics.
+      /       %h3 (M)Ruby, Robots, and how to control the World.
+      /       %p Ever wanted to control your own robots, using just code and your imagination? Did you know you can make a robot fly with only 9 lines of Ruby?
+      /       %p With a little bit of Ruby and a variety of hardware; we'll see flying robots, mruby bots, and a lot more. We may even be able to make them... dance! So let's get coding: @robot.do_awesome_stuff!
+
+      / %li.speaker
+      /   / TODO# need to get a new profile picture and twitter and github handles
+      /   .rounded
+      /     %a{href: '#speaker3', rel: 'speaker_image', class: 'fancybox', id: 'daphne_calitz'}
+      /       = image_tag "speakers/2016/speaker_name.jpg"
+      /     %a{:href=>"https://twitter.com/speaker-twitter", :class=>"twitter"}= image_tag "twitter.png"
+      /     %a{:href=>"https://github.com/speaker-github", :class=>"github"}= image_tag "github.png"
+      /   %h2
+      /     %a{href: '#speaker3', rel: 'speakers', class: 'fancybox'} Daphné Calitz
+      /   %p Using LocalStorage for Progressive Saving
+
+      /   #speaker3.detail
+      /     .links.right
+      /       %a{:href=>"https://twitter.com/speaker-twitter", :class=>"twitter"}= image_tag "twitter.png"
+      /       %a{:href=>"https://github.com/speaker-github", :class=>"github"}= image_tag "github.png"
+      /     .name
+      /       = image_tag "speakers/2016/speaker_name.jpg"
+      /       %h2 Daphné Calitz
+      /     .inner
+      /       %p Daphné Calitz is a Developer based in Hyde Park Johannesburg. Worklife includes writing salesforce applications in Apex and JavaScript and, writing and maintaining new integration components. She enjoys playing around with EmberJs in her spare time. She is a determined individual and a fan of pair programming (even though it can sometimes lead to homicidal thoughts).
+      /       %h3 Using LocalStorage for Progressive Saving
+      /       %p As application developers we often provide users with ways to capture complex data via a UI. What we often don't cater for is when that user is halfway through capturing a record and need to stop what they are doing. This talk will cover how we as developers can leverage LocalStorage in the browser to make our users' lives easier.
+
+      / %li.speaker
+      /   .rounded
+      /     %a{href: '#speaker4', rel: 'speaker_image', class: 'fancybox', id: 'daniel_smith'}
+      /       = image_tag "speakers/2016/speaker_name.jpg"
+      /     %a{:href=>"https://twitter.com/speaker-twitter", :class=>"twitter"}= image_tag "twitter.png"
+      /     %a{:href=>"https://github.com/speaker-github", :class=>"github"}= image_tag "github.png"
+      /   %h2
+      /     %a{href: '#speaker4', rel: 'speakers', class: 'fancybox'} Daniel Smith
+      /   %p RubyGL
+
+      /   #speaker4.detail
+      /     .links.right
+      /       %a{:href=>"https://twitter.com/speaker-twitter", :class=>"twitter"}= image_tag "twitter.png"
+      /       %a{:href=>"https://github.com/speaker-github", :class=>"github"}= image_tag "github.png"
+      /     .name
+      /       = image_tag "speakers/2016/speaker_name.jpg"
+      /       %h2 Daniel Smith
+      /     .inner
+      /       %p Daniel Smith is a Ruby and Node.js developer at Platform45. He loves doing things new or out-of-the-ordinary. His favourite pastimes are graphics programming and monkey-patching the NilClass. He has spoken about Game Development and other topics at Jozi.rb and Pretoria.rb. His game development experience started when he wrote tic-tac-toe for DOS in Turbo Pascal at the age of 11. Since then he has had a keen interest in game development and graphics programming.
+      /       %h3 RubyGL
+      /       %p OpenGL is powerful cross-platform library for 3D graphics. It has been used to develop stunning visuals for indie, open-source and AAA games alike, as well as powerful graphics applications for medicine, military, and CAD, to name a few. However, as a C-Library, OpenGL is notoriously difficult to work with, especially for newcomers. Ruby gives us the opportunity to make writing OpenGL applications a more pleasant experience. This talk deals with OpenGL, Ruby, and making the two work together in a way accessible to all developers.
 
       %li.speaker
         .rounded
-          %a{href: '#speaker2', rel: 'speaker_image', class: 'fancybox', id: 'you'}
+          %a{href: '#speaker5', rel: 'speaker_image', class: 'fancybox', id: 'assaf_gelber'}
+            = image_tag "speakers/2016/assaf.png"
+          %a{:href=>"https://twitter.com/assafgelber", :class=>"twitter"}= image_tag "twitter.png"
+          %a{:href=>"https://github.com/agelber", :class=>"github"}= image_tag "github.png"
+        %h2
+          %a{href: '#speaker5', rel: 'speakers', class: 'fancybox'} Assaf Gelber
+        %p Beating Poker With The Help Of Ruby
+
+        #speaker5.detail
+          .links.right
+            %a{:href=>"https://twitter.com/assafgelber", :class=>"twitter"}= image_tag "twitter.png"
+            %a{:href=>"https://github.com/agelber", :class=>"github"}= image_tag "github.png"
+          .name
+            = image_tag "speakers/2016/assaf.png"
+            %h2 Assaf Gelber
+          .inner
+            %p Assaf is a developer at the PayPal Tel Aviv Consumer Product Center, a small team focused on building the future of PayPal’s consumer apps and products all the while working on various gems and side projects. Based out of sunny Tel Aviv, Assaf is also an amateur poker player, often trying to mix between the poker, math and technology worlds. Assaf also very much enjoys brewing coffee, eating cake and riding his bicycle but hasn’t yet tried to use his programming skills for those.
+            %h3 Beating Poker With The Help Of Ruby
+            %p The thing that makes poker such an interesting game is the combination of super deep strategy and the mathematics behind the deck of cards, both of which make decision making around the table extremely difficult. Lucky for us, Ruby can help us with that!
+            %p This talk explores how we can use Ruby to become better poker players by implying various gems and statistical analysis methods both in real time and retrospectively to deepen our understanding of situations and our opponents' strategy and tendencies and ultimately, make better decisions.    
+
+      %li.speaker
+        .rounded
+          %a{href: '#speaker6', rel: 'speaker_image', class: 'fancybox', id: 'kevin_mckelvin'}
+            = image_tag "speakers/2014/kevin.jpg"
+          %a{:href=>"https://twitter.com/kmckelvin", :class=>"twitter"}= image_tag "twitter.png"
+          %a{:href=>"https://github.com/kmckelvin", :class=>"github"}= image_tag "github.png"
+        %h2
+          %a{href: '#speaker6', rel: 'speakers', class: 'fancybox'} Kevin McKelvin
+        %p Going Native
+
+        #speaker6.detail
+          .links.right
+            %a{:href=>"https://twitter.com/kmckelvin", :class=>"twitter"}= image_tag "twitter.png"
+            %a{:href=>"https://github.com/kmckelvin", :class=>"github"}= image_tag "github.png"
+          .name
+            = image_tag "speakers/2014/kevin.jpg"
+            %h2 Kevin McKelvin
+          .inner
+            %p Kevin is a Ruby developer at Platform45. He began his career working with C#, but made the switch to Ruby in 2011 and hasn't looked back since. He has strange obsessions with vim, code quality and guitars.
+            %h3 Going Native
+            %p Ruby gives us a very friendly syntax to express ourselves with, but it's not without its limitations. Sometimes we need something closer to the hardware in order to make performance gains or for specialised applications such as signal processing.
+            %p We'll live code a Ruby gem with a C native extension and then look at how we can use Go, a modern systems programming language, as an alternative to C for native code interop in Ruby.
+
+      %li.speaker
+        .rounded
+          %a{href: '#speaker7', rel: 'speaker_image', class: 'fancybox', id: 'steven_mcd'}
+            = image_tag "speakers/2015/steven_mcd.png"
+          %a{:href=>"https://twitter.com/StevenMcD_code", :class=>"twitter"}= image_tag "twitter.png"
+          %a{:href=>"https://github.com/StevenMcD", :class=>"github"}= image_tag "github.png"
+        %h2
+          %a{href: '#speaker7', rel: 'speakers', class: 'fancybox'} Steven McDonald
+        %p Improving your Craft through Communication
+
+        #speaker7.detail
+          .links.right
+            %a{:href=>"https://twitter.com/StevenMcD_code", :class=>"twitter"}= image_tag "twitter.png"
+            %a{:href=>"https://github.com/StevenMcD", :class=>"github"}= image_tag "github.png"
+          .name
+            = image_tag "speakers/2015/steven_mcd.png"
+            %h2 Steven McDonald
+          .inner
+            %p Software developer. Conference Speaker & Coach. Not a rockstar/ninja/pirate/guru. Interested in learning and sharing experiences. I've been a developing software for just over a decade now and in that time learned that software development is more about people than code. Although the code is fun, the people aspect is so much more important.
+            %h3 Improving your Craft through Communication
+            %p As developers we often focus all our energy into languages and frameworks when we start out. Sadly many new developers won't focus on communication skills until much later in their career.
+            %p This talk aims to explain why communication is so important and how to improve the way we communicate.
+
+      / %li.speaker
+      /   .rounded
+      /     %a{href: '#speaker8', rel: 'speaker_image', class: 'fancybox', id: 'gabriel_fortuna'}
+      /       = image_tag "speakers/2016/speaker_name.jpg"
+      /     %a{:href=>"https://twitter.com/speaker-twitter", :class=>"twitter"}= image_tag "twitter.png"
+      /     %a{:href=>"https://github.com/speaker-github", :class=>"github"}= image_tag "github.png"
+      /   %h2
+      /     %a{href: '#speaker8', rel: 'speakers', class: 'fancybox'} Gabriel Fortuna
+      /   %p Next level release management using feature flags
+
+      /   #speaker8.detail
+      /     .links.right
+      /       %a{:href=>"https://twitter.com/speaker-twitter", :class=>"twitter"}= image_tag "twitter.png"
+      /       %a{:href=>"https://github.com/speaker-github", :class=>"github"}= image_tag "github.png"
+      /     .name
+      /       = image_tag "speakers/2016/speaker_name.jpg"
+      /       %h2 Gabriel Fortuna
+      /     .inner
+      /       %p %w{code politics culture design ux}.each { |thing| puts "I'm about \#{thing}" }
+      /       %h3 Next level release management using feature flags
+      /       %p Deploying an application is getting trickier and trickier as the features we build get ever more complex. In this talk, I’ll be showing you how you can level up your release management and deployment strategies using feature flags, and why they could just be a future core principle in modern app development.
+
+      %li.speaker
+        .rounded
+          %a{href: '#speaker9', rel: 'speaker_image', class: 'fancybox', id: 'simon_van_dyk'}
+            = image_tag "speakers/2015/simon_van_dyk.png"
+          %a{:href=>"https://twitter.com/siefi", :class=>"twitter"}= image_tag "twitter.png"
+          %a{:href=>"https://github.com/sighmin", :class=>"github"}= image_tag "github.png"
+        %h2
+          %a{href: '#speaker9', rel: 'speakers', class: 'fancybox'} Simon van Dyk
+        %p Elixir. Much distributed. Such reliable.
+
+        #speaker9.detail
+          .links.right
+            %a{:href=>"https://twitter.com/siefi", :class=>"twitter"}= image_tag "twitter.png"
+            %a{:href=>"https://github.com/sighmin", :class=>"github"}= image_tag "github.png"
+          .name
+            = image_tag "speakers/2015/simon_van_dyk.png"
+            %h2 Simon van Dyk
+          .inner
+            %p Simon works at Platform45 creating better software for better businesses, mostly using Ruby and Javascript. The creature, Simonis, is known to dabble in Artificial Intelligence code, and his migratory patterns suggest Elixir could be part of its regular diet of code and coffee. Latest sightings of the creature include local meetups Pretoria.rb and Jozi.rb, and span as far as Washington D.C, MD and Madison, WI, babbling on about AI and testing.
+            %h3 Elixir. Much distributed. Such reliable.
+            %p Elixir is a fairly new functional programming language that runs on top of the Erlang virtual machine, known as the BEAM. Elixir opens up the mysterious world of Erlang to the average developer via an accessible syntax. Let us explore what this wonderful language and platform have to offer by looking at how they apply to building real time features into a typical request-response web application. As a bonus we will also look at how Elixir is particularly suited for complex event processing systems - sounds like all the systems we build, doesn’t it?
+
+      / %li.speaker
+      /   .rounded
+      /     %a{href: '#speaker10', rel: 'speaker_image', class: 'fancybox', id: 'kelvin_smith'}
+      /       = image_tag "speakers/2016/speaker_name.jpg"
+      /     %a{:href=>"https://twitter.com/oneKelvinSmith", :class=>"twitter"}= image_tag "twitter.png"
+      /     %a{:href=>"https://github.com/oneKelvinSmith", :class=>"github"}= image_tag "github.png"
+      /   %h2
+      /     %a{href: '#speaker10', rel: 'speakers', class: 'fancybox'} Kelvin Smith
+      /   %p Teaching Kids to Programme with Gosu and Sonic Pi
+
+      /   #speaker10.detail
+      /     .links.right
+      /       %a{:href=>"https://twitter.com/oneKelvinSmith", :class=>"twitter"}= image_tag "twitter.png"
+      /       %a{:href=>"https://github.com/oneKelvinSmith", :class=>"github"}= image_tag "github.png"
+      /     .name
+      /       = image_tag "speakers/2016/speaker_name.jpg"
+      /       %h2 Kelvin Smith
+      /     .inner
+      /       %p I am a feminist, a committed tea drinker and a budding yogi with the goal of getting into the lotus position without tearing my soul. I like to write code almost as much as I like to sleep. I was born in Johannesburg, raised in Benoni and grew up to become an engineer. I helped build a couple of power stations and then switched to software development. It was worth it.
+      /       %h3 Teaching Kids to Programme with Gosu and Sonic Pi
+      /       %p People learn at a young age about what was possible and what was not. Sometimes they develop biases that are not entirely valid. Often they believe that becoming a developer is not a realistic goal or don't even consider it an option.
+      /       %p Using libraries like Gosu and Sonic Pi that turn metaphors into audio and visual experiences, we can captivate and encourage young people. We can help them learn that code isn't a mythical dragon impossible to slay, but magic they can use that lets them see the true beauty of software development.
+
+      %li.speaker
+        .rounded
+          %a{href: '#speaker11', rel: 'speaker_image', class: 'fancybox', id: 'ridhwana'}
+            = image_tag "speakers/2016/ridhwana.png"
+          %a{:href=>"https://twitter.com/Ridhwana_K", :class=>"twitter"}= image_tag "twitter.png"
+          %a{:href=>"https://github.com/Ridhwana", :class=>"github"}= image_tag "github.png"
+        %h2
+          %a{href: '#speaker11', rel: 'speakers', class: 'fancybox'} Ridhwana
+        %p Building a better programming interface for your application
+
+        #speaker11.detail
+          .links.right
+            %a{:href=>"https://twitter.com/Ridhwana_K", :class=>"twitter"}= image_tag "twitter.png"
+            %a{:href=>"https://github.com/Ridhwana", :class=>"github"}= image_tag "github.png"
+          .name
+            = image_tag "speakers/2016/ridhwana.png"
+            %h2 Ridhwana Khan
+          .inner
+            %p Hi, I’m Ridhwana. I am the co-founder of a bespoke software development company, Zero One. My passion is software development, and nothing brings me more joy than creating a piece of software that will help improve peoples lives. I love exploring new technologies and have recently set my goal to design beautiful interfaces, that boast good user experience.
+            %h3 Building a better programming interface for your application
+            %p We are moving towards an era where API’s are now forming the crux of communication between different applications.
+            %p Hence, we need to ensure that our API's follow a good design and architecture, so that integration between different applications can be accomplished with minimal complexity and maximum efficiency.
+            %p In this talk, I would like to explore the JSON API spec, benefits and disadvantages of micro services, Rails 5 for your JSON API's, and the tools and workflow that, we as developers, can use to minimise delays when working in big teams, asynchronously, on the frontend and API.
+
+      / %li.speaker
+      /   .rounded
+      /     %a{href: '#speaker12', rel: 'speaker_image', class: 'fancybox', id: 'aja_hammerly'}
+      /       = image_tag "speakers/2016/speaker_name.jpg"
+      /     %a{:href=>"https://twitter.com/speaker-twitter", :class=>"twitter"}= image_tag "twitter.png"
+      /     %a{:href=>"https://github.com/speaker-github", :class=>"github"}= image_tag "github.png"
+      /   %h2
+      /     %a{href: '#speaker12', rel: 'speakers', class: 'fancybox'} Aja Hammerly
+      /   %p Stupid Ideas For Many Computers
+
+      /   #speaker12.detail
+      /     .links.right
+      /       %a{:href=>"https://twitter.com/speaker-twitter", :class=>"twitter"}= image_tag "twitter.png"
+      /       %a{:href=>"https://github.com/speaker-github", :class=>"github"}= image_tag "github.png"
+      /     .name
+      /       = image_tag "speakers/2016/speaker_name.jpg"
+      /       %h2 Aja Hammerly
+      /     .inner
+      /       %p Aja lives in Seattle where she is a developer at Substantial and a member of the Seattle Ruby Brigade. Her favorite languages are Ruby and Prolog. She also loves working with large piles of data. In her free time she enjoys skiing, cooking, knitting, and long coding sessions on the beach.
+      /       %h3 Stupid Ideas For Many Computers
+      /       %p There are plenty of useful things you can do with Ruby and a bunch of servers. This talk isn't about useful things. This talk will show off asinine, amusing, and useless things you can do with Ruby and access to cloud computing.
+      /       %p Sentiment analysis based on emoji? Why not? Hacky performance testing frameworks? Definitely! Multiplayer infinite battleship? Maybe? The world's most inefficient logic puzzle solver? Awesome!
+      /       %p If you are interested in having some fun and laughing at reasonable code for unreasonable problems (or unreasonable code for reasonable problems) this talk is for you.          
+
+
+      %li.speaker
+        .rounded
+          %a{href: '#speaker13', rel: 'speaker_image', class: 'fancybox', id: 'rishal_hurbans'}
+            = image_tag "speakers/2016/rishal_hurbans.png"
+          %a{:href=>"https://twitter.com/RishalHurbans", :class=>"twitter"}= image_tag "twitter.png"
+          %a{:href=>"https://github.com/rishal-hurbans", :class=>"github"}= image_tag "github.png"
+        %h2
+          %a{href: '#speaker13', rel: 'speakers', class: 'fancybox'} Rishal Hurbans
+        %p Developer Design Thinking
+
+        #speaker13.detail
+          .links.right
+            %a{:href=>"https://twitter.com/RishalHurbans", :class=>"twitter"}= image_tag "twitter.png"
+            %a{:href=>"https://github.com/rishal-hurbans", :class=>"github"}= image_tag "github.png"
+          .name
+            = image_tag "speakers/2016/rishal_hurbans.png"
+            %h2 Rishal Hurbans
+          .inner
+            %p Rishal is currently fulfilling the role of a Team Lead at Entelect. He is a senior software engineer designing and building solutions for various national and international blue chip clients. He has a passion for web architecture, mobile development, and user experience design. MSc research in artificial life. He also enjoys developing games and producing music. www.prolificidea.com
+            %h3 Developer Design Thinking
+            %p Design thinking is a methodology used by designers to create innovative and effective solutions. Most scientific methodologies of working take all the known factors into account when deriving a solution, whereas, design thinking analyses both the known and the unknown. It challenges us to delve deeper into the problem and read between the lines before forming a solution. This talk aims to provide insight into activities and practices that assist developers in building effective, robust, and usable software by utilising the design thinking methodology.
+
+      / %li.speaker
+      /   .rounded
+      /     %a{href: '#speaker14', rel: 'speaker_image', class: 'fancybox', id: 'nelson_pascoal'}
+      /       = image_tag "speakers/2016/speaker_name.jpg"
+      /     %a{:href=>"https://twitter.com/foomip", :class=>"twitter"}= image_tag "twitter.png"
+      /     %a{:href=>"https://github.com/foomip", :class=>"github"}= image_tag "github.png"
+      /   %h2
+      /     %a{href: '#speaker14', rel: 'speakers', class: 'fancybox'} Nelson Pascoal
+      /   %p Reactive Programming Principles
+
+      /   #speaker14.detail
+      /     .links.right
+      /       %a{:href=>"https://twitter.com/foomip", :class=>"twitter"}= image_tag "twitter.png"
+      /       %a{:href=>"https://github.com/foomip", :class=>"github"}= image_tag "github.png"
+      /     .name
+      /       = image_tag "speakers/2016/speaker_name.jpg"
+      /       %h2 Nelson Pascoal
+      /     .inner
+      /       %p I have been working as a software developer for about 11 years now. I enjoy learning new things and most of all writing software. I consider myself to be a bit of a polyglot developer. Lately I have been enjoying coding in Ruby, Scala, Rust and JavaScript.
+      /       %h3 Reactive Programming Principles
+      /       %p Writing distributed applications is tricky enough without throwing concurrency into the mix. As the applications you and I build every day get more and more complex, we need tools and principles that can help us get the job done without sacrificing our sanity. That’s where Reactive Programming comes in. Join me at RubyFuZA where I’ll take you through my journey on learning Reactive Programming Principles and share some of my key learnings with you.
+
+      %li.speaker
+        .rounded
+          %a{href: '#speaker15', rel: 'speaker_image', class: 'fancybox', id: 'rory_mckinley'}
+            = image_tag "images/speakers/2013/rory.jpg"
+          %a{:href=>"https://twitter.com/rorymckinley", :class=>"twitter"}= image_tag "twitter.png"
+          %a{:href=>"https://github.com/rorymckinley", :class=>"github"}= image_tag "github.png"
+        %h2
+          %a{href: '#speaker15', rel: 'speakers', class: 'fancybox'} Rory McKinley
+        %p What defines quality software?
+
+        #speaker15.detail
+          .links.right
+            %a{:href=>"https://twitter.com/rorymckinley", :class=>"twitter"}= image_tag "twitter.png"
+            %a{:href=>"https://github.com/rorymckinley", :class=>"github"}= image_tag "github.png"
+          .name
+            = image_tag "images/speakers/2013/rory.jpg"
+            %h2 Rory McKinley
+          .inner
+            %p Rory is a software developer, an aspiring (and perspiring) entrepreneur and a perpetual student. He has developed several methodologies for apologising for the software he has inflicted on others and his spare time is spent honing a speaker bio that is so perfect that he never has to write one of these damn things again. To date he has failed. Although he does feel that he has managed to level up in the key areas of run-on sentences and pointless distracting tangents.
+            %h3 What defines quality software?
+            %p For years, I've believed that there was a univeersal constant that defined quality software and, once the secret ingredient for quality software has been identified, it can be distilled, bottled and sprinkled like fairydust over code - ensuring success.
+            %p This talk will try to determine if there is a single overarching definition of quality software or if, like so many other of life's realities, it is a tad more complicated.
+
+      %li.speaker
+        .rounded
+          %a{href: '#speaker100', rel: 'speaker_image', class: 'fancybox', id: 'you'}
             = image_tag "speakers/you.png"
           %a{:href=>"https://twitter.com/rubyfuza/", :class=>"twitter"}= image_tag "twitter.png"
           %a{:href=>"https://github.com/Rubyfuza/", :class=>"github"}= image_tag "github.png"
         %h2
-          %a{href: '#speaker2', rel: 'speakers', class: 'fancybox'} You?
+          %a{href: '#speaker100', rel: 'speakers', class: 'fancybox'} You?
         %p Your talk's description
 
-        #speaker2.detail
+        #speaker100.detail
           .links.right
             %a{:href=>"https://twitter.com/rubyfuza/", :class=>"twitter"}= image_tag "twitter.png"
             %a{:href=>"https://github.com/Rubyfuza/", :class=>"github"}= image_tag "github.png"
@@ -48,7 +368,7 @@
             %a{:href=>"http://cfp.rubyfuza.org/events/rubyfuza-2016-cfp", :class=>"button button-3d button-primary button-rounded"} Submit your talk today!
             %br
             %br
-            %p Rubyfuza is the only African conference for Ruby developers. The event comprises of two days of single-track presentations and an additional workshop day. The organizers of Rubyfuza 2016 is encouraging the submission of proposals for 30-minute presentations OR workshops related to Ruby development. Sessions may be geared toward non-expert audiences or focus on topics relevant to experienced developers. The deadline to submit proposals is December 31, 2015.
+            %p Rubyfuza is the only African conference for Ruby developers. The event comprises of two days of single-track presentations and an additional workshop day. The organizers of Rubyfuza 2016 is encouraging the submission of proposals for 30-minute presentations OR workshops related to Ruby development. Sessions may be geared toward non-expert audiences or focus on topics relevant to experienced developers. The deadline to submit proposals is December 31, 2016.
 
 
 
