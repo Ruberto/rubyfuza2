@@ -20,7 +20,7 @@
 					%a{:href=>"http://www.intellection.io", :target=>"_blank", :title=>"Intellection"} intellection.com
 			%li.half
 				%a{:href=>"#platform45", :class=>"info fancybox", rel: 'sponsors', :title=>"Platform45"}
-					= image_tag "logos/platform45n.png"
+					= image_tag "logos/platform45n.png", :style => 'padding-top:45px'
 				.row
 					%a{:href=>"http://www.platform45.com", :target=>"_blank", :title=>"Platform45"} platform45.com
 				%small Ruby-level sponsor
@@ -50,7 +50,21 @@
 					%p At Hetzner South Africa we are passionate about web hosting – it’s our core business and it’s what we do best. By consistently delivering excellent service and cost effective web hosting, dedicated servers and custom hosting solutions, Hetzner has exponentially grown its market share, making it the leading web hosting company in South Africa. Inspired by our brand promise ‘Trusted in Hosting’, we focus on providing efficient, sustainable business models, quality service and customer satisfaction. A key contributor to our success is our people. We aim for our teams to manage themselves rather than rely on several layers of hierarchy. We want to give our people the freedom to explore, innovate and create. We recognise that our customers expect reliability and good value from us and it remains our ongoing commitment to earn and retain their trust.
 					%span.right Sapphire-level sponsor + Coffee Sponsorship
 					%a{:href=>"http://www.hetzner.co.za", :target=>"_blank", :title=>"Hetzner, Trusted in Hosting"} hetzner.co.za
+
 			%li.third
+				%a{:href=>"#prodigyfinance", :class=>"info fancybox", rel: 'sponsors', :title=>"Prodigy Finance"}
+					= image_tag "logos/prodigy-white.png"
+				.row
+					%a{:href=>"https://www.prodigyfinance.com/", :target=>"_blank", :title=>"Prodigy Finance"} prodigyfinance.com
+				%small Sapphire-level sponsor
+
+				#prodigyfinance.detail
+					%a{:href=>"https://www.prodigyfinance.com/", :target=>"_blank", :title=>"Prodigy Finance"}
+						= image_tag "logos/prodigy-logo.svg", :class => 'square'
+					%p Prodigy Finance is a global community, connecting the world’s talent with the capital it needs to thrive. Our international network of investors fund graduate loans for students from over 112 countries through a borderless model that prizes potential over geography. We find and help fund talent all across the world, crossing the borders which traditional funding providers cannot.
+					%p Currently Prodigy Finance has programmes at more than 60 of the worlds ranked business schools, including INSEAD, Wharton, Chicago Booth, Columbia Business School, London Business School, NUS, University of Oxford’s Saïd Business School, and Stanford to name a few. For further information visit prodigyfinance.com.
+					%span.right Sapphire-level sponsor
+					%a{:href=>"https://www.prodigyfinance.com/", :target=>"_blank", :title=>"Prodigy Finance"} prodigyfinance.com
 
 			%li.third
 				%a{:href=>"#unboxedconsulting", :class=>"info fancybox", rel: 'sponsors', :title=>"Unboxed Consulting"}
@@ -83,21 +97,19 @@
 					%a{:href=>"http://www.vulcanlabs.com", :target=>"_blank", :title=>"Vulcan Labs"} vulcanlabs.com
 
 			%li.third
-				/ %a{:href=>"#coldcuttech", :class=>"info fancybox", rel: 'sponsors', :title=>"Coldcut Technologies"}
-				/ 	= image_tag "logos/coldcut-white.png"
-				/ .row
-				/ 	%a{:href=>"http://www.coldcut.co.za/", :target=>"_blank", :title=>"Coldcut Technologies"} coldcut.co.za
-				/ %small Topaz-level sponsor
+				%a{:href=>"#africantravelcanvas", :class=>"info fancybox", rel: 'sponsors', :title=>"African Travel Canvas"}
+					= image_tag "logos/african_travel_canvas2.png"
+				.row
+					%a{:href=>"http://www.africantc.co.za", :target=>"_blank", :title=>"African Travel Canvas"} www.africantc.co.za
+				%small Organizing partner
 
-				/ #coldcuttech.detail
-				/ 	%a{:href=>"http://www.coldcut.co.za/", :target=>"_blank", :title=>"Coldcut Technologies"}
-				/ 		= image_tag "logos/coldcut.png", :class => 'square'
-				/ 	%p Coldcut Technologies is a South-African based information technology company created in March 2011.
-				/ 	%p We are an innovative software development company which aims to deliver software design and development that are both of the highest quality, affordable and reliable. To achieve this we offer a variety of products and services, developed using the latest technology and methods to meet individual business requirements.
-				/ 	%p As a company we value integrity, honesty, openness and mutual respect. We hold ourselves accountable to our customers by honoring our commitments, providing results, and striving for the highest quality.
+				#africantravelcanvas.detail
+					%a{:href=>"http://www.africantc.co.za", :target=>"_blank", :title=>"African Travel Canvas"}
+						= image_tag "logos/african_travel_canvas.png", :class => 'square'
+					%p African Travel Canvas is a local tour operator with over thirteen years of experience in the luxury tourism market. From sightseeing tours, fully inclusive individual and group tours, self-drive tours, safaris and overland excursions, African Travel Canvas designs bespoke itineraries that cater to an array of travellers’ interests and aspirations. In seeking adventure, exploration, education or relaxation, experience the African continent with African Travel Canvas.
 
-				/ 	%span.right Topaz-level sponsor
-				/ 	%a{:href=>"http://www.coldcut.co.za/", :target=>"_blank", :title=>"Coldcut Technologies"} coldcut.co.za
+					%span.right Organizing partner
+					%a{:href=>"http://www.africantc.co.za", :target=>"_blank", :title=>"African Travel Canvas"} www.africantc.co.za
 
 			%li.third
 				%a{:href=>"#zeroone", :class=>"info fancybox", rel: 'sponsors', :title=>"Zero One"}
@@ -114,7 +126,10 @@
 					%span.right Topaz-level sponsor
 					%a{:href=>"http://www.zero-one.io", :target=>"_blank", :title=>"Zero One"} zero-one.io
 
+		%ul.sponsors-list
+			%li.third
 
+			%li.third
 
 		%h2.highlight
 			Interested in sponsoring this event?
