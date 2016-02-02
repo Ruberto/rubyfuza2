@@ -1,6 +1,50 @@
 %section#workshops
-  .wrapper
-    %h1.heading
-      %a{:name=>"workshops"}
-      %span Workshops
+	.wrapper
+		%h1.heading
+			%a{:name=>"workshops"}
+			%span Workshops
 
+		%ul
+			%li{style: 'width: 15.5%'}
+
+			%li.workshop
+				%h2
+					%a{href: '#workshop1', rel: 'workshops', class: 'fancybox'} Hacking for Good.
+				%p Hacking For Good with Lance Gleason
+				%p.date Saturday, February 6, 2016 | 09:00 - 12:00
+
+				#workshop1.workshop.detail
+					.name
+						%h2 Hacking for Good.
+						%p Do you work with a not for profit cause that needs some coding help?  Do you want to use your coding skills to help a not for profit?  If you answered yes to either of these questions then come to this session to to hack on a project for good and meet others who also want to work on meaningful projects.  This will be self organizing informal session.  Bring your laptop and ideas for projects(if you have any).
+					%h3.join
+						%a{href: 'http://www.meetup.com/Rubyfuza/events/228500340/'} Join this workshop!
+						&nbsp;&bull;&nbsp;
+
+					.inner
+						.name
+							= image_tag "speakers/2014/lance.jpg"
+							%h3 Lance Gleason
+						%p Lance has been a computer nut ever since his dad bought him a VIC 20 in the 1980s. After nearly a decade as a Java developer for companies like Kodak, CNN, and GE, he decided to end his addiction to heavy inheritance, static typing, and coding without tests. These days, he practices clean Ruby living with lots of well-tested code, class composition, and fun dynamic languages as a developer/startup CTO for hire with extensive experience in data science and committer on open source projects such as the Passbook-iOS, Asari and Active Asari Gems. He is known to practice interspecies pair (purr) programming with his orange tabby, Allie, and when he's not writing code, you will find him diving with sharks, trekking through Chernobyl, sampling wine, cheering on the Springboks or perfecting his biltong recipe.
+
+			%li.workshop
+				%h2
+					%a{href: '#workshop3', rel: 'workshops', class: 'fancybox'} Functional Programming
+				%p Level up your Ruby skills by building a Flashcard CLI with De Wet
+				%p.date Saturday, February 6, 2016 | 09:00 - 12:00
+
+				#workshop3.workshop.detail
+					.name
+						%h2 An Introduction to Functional Programming for Ruby Developers
+						%p Have you been working on Rails projects but feel your Ruby skills are holding you back? Can you code things in Ruby but know you need to grow in your ability to write tests for your code? Are you a beginner that has followed the first half of a Ruby book from home but have no clue how to make the jump to making something useful?
+
+						%p Come build a command line flashcard quiz with us. At the end, your program can ask you to answer questions in the terminal. Building something that you can actually use (to learn a bunch of coding terms or to help a relative pass matric) is a lot more motivating than only doing code exercises to get better.
+					%h3.join
+						%a{href: 'http://www.meetup.com/Rubyfuza/events/228499299/'} Join this workshop!
+					.inner
+						.name
+							= image_tag "speakers/2016/de_wet.png"
+							%h3 De Wet Blomerus
+						%p
+							De Wet's full time job is teaching people to code, he enjoys it so much that he wants to  come do it on the weekend, just for fun. togethertech.org
+							%a{href: 'http://www.togethertech.org'} http://togethertech.org
